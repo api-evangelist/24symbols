@@ -1,7 +1,19 @@
 aid: 24symbols
 name: 24Symbols
-description: 24Symbols is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  24Symbols is a digital reading subscription service, often described as a
+  "Spotify for books," giving readers unlimited access to a catalog of more than
+  500,000 e-books across Spanish, English, German, Italian, Portuguese, and
+  French for a flat monthly fee. Founded in Madrid and backed by Seedcamp, the
+  platform lets subscribers read on smartphones, tablets, e-readers, and the web,
+  build personal bookshelves, track reading progress, and follow other readers
+  and authors through its social reading community. Alongside its consumer
+  premium plan, 24Symbols offers B2B "reading space" solutions that let hotels,
+  telecoms, media outlets, educational institutions, and loyalty or employee
+  programs license library access for their audiences. The company operates as a
+  consumer- and business-facing subscription product and does not currently
+  publish a public developer API, SDK, or partner integration surface; this
+  profile captures its verifiable identity and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/24symbols/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,32 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://24symbolsrepo.s3.amazonaws.com/general/images/24s_icon_256.png
 tags:
 - Company
+- Books
+- E-books
+- Reading
+- Digital Library
+- Subscription
+- Media
+- Publishing
+- Entertainment
+- Content
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://24symbols.com
+  url: https://www.24symbols.com
+- type: Support
+  url: https://www.24symbols.com/help
+- type: HelpCenter
+  url: https://www.24symbols.com/help
+- type: Pricing
+  url: https://www.24symbols.com/subscriptions
+- type: SignUp
+  url: https://www.24symbols.com/users/sign_in
+- type: Login
+  url: https://www.24symbols.com/users/sign_in
+- type: Blog
+  url: https://www.24symbols.com/24stories/
+- type: TermsOfService
+  url: https://www.24symbols.com/license_agreement
+- type: PrivacyPolicy
+  url: https://www.24symbols.com/privacy_policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
