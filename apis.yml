@@ -32,7 +32,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 image: https://24symbolsrepo.s3.amazonaws.com/general/images/24s_icon_256.png
